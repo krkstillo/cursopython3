@@ -1,104 +1,125 @@
-# Registros
-registros
-* .log
-npm-debug.log *
-yarn-debug.log *
-yarn-error.log *
-lerna-debug.log *
+# Creado por https://www.gitignore.io/api/python,virtualenv
+# Edite en https://www.gitignore.io/?templates=python,virtualenv
 
-# Informes de diagnóstico (https://nodejs.org/api/report.html)
-reporte. [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * .json
+# ## Python ###
+# Archivos DLL / optimizados / compilados por bytes
+__pycache__ /
+* .py [ bacalao ]
+* $ py.class
 
-# Datos en tiempo de ejecución
-pids
-* .pid
-* .seed
-* .pid.lock
+# Extensiones C
+* .so
 
-# Directorio para librerías instrumentadas generadas por jscoverage / JSCover
-lib-cov
+# Distribución / envasado
+.Pitón
+construir /
+desarrollar-huevos /
+dist /
+descargas /
+huevos /
+.huevos /
+lib /
+lib64 /
+partes /
+sdist /
+var /
+ruedas /
+pip-wheel-metadata /
+compartir / python-wheels /
+* .egg-info /
+.instalado.cfg
+* .huevo
+MANIFIESTO
 
-# Directorio de cobertura utilizado por herramientas como estambul
-cobertura
-* .lcov
+# PyInstaller
+#   Por lo general, estos archivos se escriben mediante un script de Python a partir de una plantilla
+#   antes de que PyInstaller compile el exe, para inyectar la fecha / otra información en él.
+* .manifest
+* .spec
 
-# cobertura de prueba de Nueva York
-.nyc_output
+# Registros del instalador
+pip-log.txt
+pip-eliminar-este-directorio.txt
 
-# Almacenamiento intermedio de Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
-.gruñido
-
-# Directorio de dependencias de Bower (https://bower.io/)
-bower_components
-
-# configuración de node-waf
-.lock-wscript
-
-# Complementos binarios compilados (https://nodejs.org/api/addons.html)
-construir / lanzar
-
-# Directorios de dependencias
-módulos_nodo /
-jspm_packages /
-
-# Archivos de declaración de TypeScript v1
-tipificaciones /
-
-# Caché de TypeScript
-* .tsbuildinfo
-
-# Directorio de caché npm opcional
-.npm
-
-# Caché eslint opcional
-.eslintcache
-
-# Caché de micropaquetes
-.rpt2_caché /
-.rts2_cache_cjs /
-.rts2_cache_es /
-.rts2_cache_umd /
-
-# Historial de REPL opcional
-.node_repl_history
-
-# Salida de 'paquete npm'
-* .tgz
-
-# Archivo de integridad del hilo
-.yarn-integridad
-
-# archivo de variables de entorno dotenv
-.env
-.env.test
-
-# caché del paquete de paquetes (https://parceljs.org/)
+# Informes de cobertura / prueba unitaria
+htmlcov /
+.tox /
+.nox /
+.cobertura
+.cobertura. *
 .cache
+nosetests.xml
+cobertura.xml
+* .cover
+.hipótesis /
+.pytest_cache /
 
-# Salida de compilación de Next.js
-.próximo
+# Traducciones
+* .mo
+* .pot
 
-# Nuxt.js compila / genera salida
-.nuxt
-dist
+# Cosas scrapy:
+.scrapy
 
-# Archivos Gatsby
-.caché /
-# Comente en la línea pública en si su proyecto usa Gatsby y * no * Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# público
+# Documentación de Sphinx
+docs / _build /
 
-# salida de compilación de vuepress
-.vuepress / dist
+# PyBuilder
+objetivo /
 
-# Directorios sin servidor
-.servidor /
+# pyenv
+.python-versión
 
-# Caché de FuseBox
-.fusebox /
+# pipenv
+#    Según pypa / pipenv # 598, se recomienda incluir Pipfile.lock en el control de versiones.
+#    Sin embargo, en caso de colaboración, si tiene dependencias o dependencias específicas de la plataforma
+#    al no tener soporte multiplataforma, pipenv puede instalar dependencias que no funcionan o no
+#    instalar todas las dependencias necesarias.
+# Pipfile.lock
 
-# Archivos locales de DynamoDB
-.dynamodb /
+# archivo de programación de ritmo de apio
+horario de apio
 
-# Archivo de puerto TernJS
-.puerto de popa
+# Archivos analizados por SageMath
+* .sage.py
+
+# Configuración del proyecto Spyder
+.spyderproject
+.spyproject
+
+# Configuración del proyecto de cuerda
+.ropeproject
+
+# Sr. Desarrollador
+.mr.developer.cfg
+.proyecto
+.pydevproject
+
+# documentación de mkdocs
+/ sitio
+
+# mypy
+.mypy_caché /
+.dmypy.json
+dmypy.json
+
+# Comprobador de tipo pira
+.pyre /
+
+# ## VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+pyvenv.cfg
+.env
+.venv
+env /
+venv /
+ENV /
+env.bak /
+venv.bak /
+pip-selfcheck.json
+Incluir
+Lib
+Guiones
+
+# Fin de https://www.gitignore.io/api/python,virtualenv
