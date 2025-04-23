@@ -6,9 +6,9 @@ nombre = "Carlos Castillo"
 print("Hola mundo")
 
 #metodos de entradas
-numero1 = 9
-numero2 = 8
+#numero1 = 9
+#numero2 = 8
 
-resultado = numero1 + numero2
+#resultado = numero1 + numero2
 
 print(resultado)
